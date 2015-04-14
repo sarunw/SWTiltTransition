@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.name             = "SWTiltTransition"
   s.version          = "1.0.0"
   s.summary          = "Twitter like modal presentation transition."
-  s.description      = <<-DESC
-                       Twitter like modal presentation transition.
-                       DESC
+  # s.description      = <<-DESC
+                       # Twitter like modal presentation transition.
+                       # DESC
   s.homepage         = "https://github.com/sarunw/SWTiltTransition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
