@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "SWTiltTransition"
   s.version          = "1.0.0"
-  s.summary          = "A short description of SWTiltTransition."
+  s.summary          = "Twitter like modal presentation transition."
   s.description      = <<-DESC
-                       An optional longer description of SWTiltTransition
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Twitter like modal presentation transition.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SWTiltTransition"
+  s.homepage         = "https://github.com/sarunw/SWTiltTransition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Sarun Wongpatcharapakorn" => "artwork.th@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SWTiltTransition.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sarunw/SWTiltTransition.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sarunw'
 
   s.platform     = :ios, '8.0'
