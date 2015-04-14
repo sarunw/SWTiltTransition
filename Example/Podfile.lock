@@ -1,0 +1,14 @@
+PODS:
+  - SWTiltTransition (1.0.0)
+
+DEPENDENCIES:
+  - SWTiltTransition (from `../`)
+
+EXTERNAL SOURCES:
+  SWTiltTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SWTiltTransition: e97ab762041a33287e6086cd3cfb002a9d046283
+
+COCOAPODS: 0.36.3
