@@ -60,19 +60,25 @@ static CGFloat const scaleFactor = 0.93;
         
         fromView.userInteractionEnabled = NO;
         
+        [fromVC beginAppearanceTransition:NO animated:YES];
+        
         [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.9 initialSpringVelocity:0.3 options:0 animations:^{
             
             fromView.transform = CGAffineTransformMakeScale(scaleFactor, scaleFactor);
             fromView.tintAdjustmentMode = UIViewTintAdjustmentModeDimmed;
             animatingView.frame = finalFrame;
         } completion:^(BOOL finished) {
-           
+            
+            [fromVC endAppearanceTransition];
             [transitionContext completeTransition:YES];
         }];
     }
     else {
         toView.userInteractionEnabled = YES;
         toView.transform = CGAffineTransformMakeScale(scaleFactor, scaleFactor);
+        
+        
+        [toVC beginAppearanceTransition:YES animated:YES];
         
         [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.9 initialSpringVelocity:0.5 options:0 animations:^{
             
@@ -81,6 +87,7 @@ static CGFloat const scaleFactor = 0.93;
             animatingView.frame = finalFrame;
         } completion:^(BOOL finished) {
             
+            [toVC endAppearanceTransition];
             [transitionContext completeTransition:YES];
         }];
     }
