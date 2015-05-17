@@ -65,7 +65,7 @@ static CGFloat const scaleFactor = 0.93;
         [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.9 initialSpringVelocity:0.3 options:0 animations:^{
             
             fromView.transform = CGAffineTransformMakeScale(scaleFactor, scaleFactor);
-            fromView.tintAdjustmentMode = UIViewTintAdjustmentModeDimmed;
+//            fromView.tintAdjustmentMode = UIViewTintAdjustmentModeDimmed;
             animatingView.frame = finalFrame;
         } completion:^(BOOL finished) {
             
@@ -82,7 +82,7 @@ static CGFloat const scaleFactor = 0.93;
         
         [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.9 initialSpringVelocity:0.5 options:0 animations:^{
             
-            toView.tintAdjustmentMode = UIViewTintAdjustmentModeAutomatic;
+//            toView.tintAdjustmentMode = UIViewTintAdjustmentModeAutomatic;
             toView.transform = CGAffineTransformIdentity;
             animatingView.frame = finalFrame;
         } completion:^(BOOL finished) {
