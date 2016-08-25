@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C67F8D73C6495D8E0724A39 /* libPods-SWTiltTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB628E7CBB159336E12BEC2A /* libPods-SWTiltTransition.a */; };
-		3D6DB3697CB6287538B7B1C6 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FEF3A67C1AFBBE92A0FB93 /* libPods-Tests.a */; };
+		3BC291A9C678815260C5B0B7 /* Pods_SWTiltTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD871E8A7EA9984233A69F81 /* Pods_SWTiltTransition.framework */; };
+		40BB1450B9B52D2DBB2941CD /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575E934FA714032DBF05CC13 /* Pods_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +24,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		A000BDF11D6F026600413747 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A000BDF01D6F026600413747 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310FDA18B4A943C62517B112 /* Pods-SWTiltTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTiltTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition.release.xcconfig"; sourceTree = "<group>"; };
 		3662CD53BBF74CE527BF66F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		38E500B4A8E61445B02D3479 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		575E934FA714032DBF05CC13 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SWTiltTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWTiltTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +63,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6DFF84290A93ED6EDF14E66E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		790DC2739161ACDECF441636 /* SWTiltTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWTiltTransition.podspec; path = ../SWTiltTransition.podspec; sourceTree = "<group>"; };
-		978C99F6672390EAB10A0CC9 /* Pods-SWTiltTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTiltTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition.debug.xcconfig"; sourceTree = "<group>"; };
-		A58CE9158EA7DD9E0CF8933B /* Pods-SWTiltTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTiltTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition.release.xcconfig"; sourceTree = "<group>"; };
-		B5FEF3A67C1AFBBE92A0FB93 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB628E7CBB159336E12BEC2A /* libPods-SWTiltTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWTiltTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A000BDF01D6F026600413747 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BD871E8A7EA9984233A69F81 /* Pods_SWTiltTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTiltTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18321E0BAC229A95F559F75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C3A1A6D9E107FB187FB5BBC4 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAB815AF6E4CEBCA9BEDC463 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F38ED9EF88A31F8981E3A82A /* Pods-SWTiltTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTiltTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2C67F8D73C6495D8E0724A39 /* libPods-SWTiltTransition.a in Frameworks */,
+				3BC291A9C678815260C5B0B7 /* Pods_SWTiltTransition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,20 +90,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3D6DB3697CB6287538B7B1C6 /* libPods-Tests.a in Frameworks */,
+				40BB1450B9B52D2DBB2941CD /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		331BB43012001A3B26F1F3E8 /* Pods */ = {
+		57A6D441CDFEFDB7AB83BF49 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				978C99F6672390EAB10A0CC9 /* Pods-SWTiltTransition.debug.xcconfig */,
-				A58CE9158EA7DD9E0CF8933B /* Pods-SWTiltTransition.release.xcconfig */,
-				DAB815AF6E4CEBCA9BEDC463 /* Pods-Tests.debug.xcconfig */,
-				C3A1A6D9E107FB187FB5BBC4 /* Pods-Tests.release.xcconfig */,
+				F38ED9EF88A31F8981E3A82A /* Pods-SWTiltTransition.debug.xcconfig */,
+				310FDA18B4A943C62517B112 /* Pods-SWTiltTransition.release.xcconfig */,
+				6DFF84290A93ED6EDF14E66E /* Pods-Tests.debug.xcconfig */,
+				38E500B4A8E61445B02D3479 /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -114,7 +116,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				331BB43012001A3B26F1F3E8 /* Pods */,
+				57A6D441CDFEFDB7AB83BF49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +136,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BB628E7CBB159336E12BEC2A /* libPods-SWTiltTransition.a */,
-				B5FEF3A67C1AFBBE92A0FB93 /* libPods-Tests.a */,
+				BD871E8A7EA9984233A69F81 /* Pods_SWTiltTransition.framework */,
+				575E934FA714032DBF05CC13 /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +153,7 @@
 				6003F5A6195388D20070C39A /* SWViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A000BDF01D6F026600413747 /* Launch Screen.storyboard */,
 			);
 			path = SWTiltTransition;
 			sourceTree = "<group>";
@@ -202,11 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SWTiltTransition" */;
 			buildPhases = (
-				588AC73613D4DF927E51081B /* Check Pods Manifest.lock */,
+				D88EBF52FE3C8AC4B58C2B16 /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				831AEABD29A54846FFE611E7 /* Copy Pods Resources */,
+				88DF2F8DB1820810C1E75255 /* 📦 Embed Pods Frameworks */,
+				B6AA392180FC1818DC2CC8A7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,11 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				A08CBB96E9361E29C322A605 /* Check Pods Manifest.lock */,
+				5C9F5D5A24456B732A73B4BA /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				63F0C59E8511D2ADBA17A4B0 /* Copy Pods Resources */,
+				4C92CA206E052286DC3AC579 /* 📦 Embed Pods Frameworks */,
+				5E56650AF29D90AED2BEF6CC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +284,7 @@
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				A000BDF11D6F026600413747 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,14 +300,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		588AC73613D4DF927E51081B /* Check Pods Manifest.lock */ = {
+		4C92CA206E052286DC3AC579 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9F5D5A24456B732A73B4BA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +330,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		63F0C59E8511D2ADBA17A4B0 /* Copy Pods Resources */ = {
+		5E56650AF29D90AED2BEF6CC /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,14 +345,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		831AEABD29A54846FFE611E7 /* Copy Pods Resources */ = {
+		88DF2F8DB1820810C1E75255 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6AA392180FC1818DC2CC8A7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,14 +375,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWTiltTransition/Pods-SWTiltTransition-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A08CBB96E9361E29C322A605 /* Check Pods Manifest.lock */ = {
+		D88EBF52FE3C8AC4B58C2B16 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,10 +531,9 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 978C99F6672390EAB10A0CC9 /* Pods-SWTiltTransition.debug.xcconfig */;
+			baseConfigurationReference = F38ED9EF88A31F8981E3A82A /* Pods-SWTiltTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWTiltTransition/SWTiltTransition-Prefix.pch";
 				INFOPLIST_FILE = "SWTiltTransition/SWTiltTransition-Info.plist";
@@ -510,10 +545,9 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A58CE9158EA7DD9E0CF8933B /* Pods-SWTiltTransition.release.xcconfig */;
+			baseConfigurationReference = 310FDA18B4A943C62517B112 /* Pods-SWTiltTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWTiltTransition/SWTiltTransition-Prefix.pch";
 				INFOPLIST_FILE = "SWTiltTransition/SWTiltTransition-Info.plist";
@@ -525,7 +559,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB815AF6E4CEBCA9BEDC463 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 6DFF84290A93ED6EDF14E66E /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWTiltTransition.app/SWTiltTransition";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +582,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A1A6D9E107FB187FB5BBC4 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 38E500B4A8E61445B02D3479 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWTiltTransition.app/SWTiltTransition";
 				FRAMEWORK_SEARCH_PATHS = (
