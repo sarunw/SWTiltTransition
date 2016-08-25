@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SWTiltTransition"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Twitter like modal presentation transition."
   # s.description      = <<-DESC
                        # Twitter like modal presentation transition.
